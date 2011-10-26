@@ -1,0 +1,28 @@
+--- About ---
+
+Contents of this repository was used to demonstrate relational (PostgreSQL)
+approach to the Twitter example, in constrast to a NoSQL (Redis) approach
+(available here http://karmi.github.com/redis_twitter_example/). 
+
+The intent was not to prove that relational approach is the only correct
+one, but to demonstrate the differences between relational and NoSQL
+approaches, pros/cons etc. And comparing them side-by-side makes the
+comparison much more illustrative.
+
+The Twitter example was chosen because it's a de-facto hello world app
+in the NoSQL world, it's quite simple to understand (everyone knows what
+a tweet or follower is, etc.).
+
+To run this file you'll need PostgreSQL (tested with 9.0, should work with
+8.x releases) and intarray contrib module.
+
+--- License ---
+
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0
+Unported License. The summary of the license is available here:
+
+https://creativecommons.org/licenses/by-sa/3.0/
+
+and the full legal code of the license is available here:
+
+https://creativecommons.org/licenses/by-sa/3.0/legalcode
